@@ -1,0 +1,20 @@
+{
+  "name": "lit-element-starter",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "serve": "es-dev-server --app-index src/index.html --node-resolve --watch --open",
+    "build": "rm -rf build && rollup -c"
+  },
+  "keywords": [],
+  "author": "Gourav Khator",
+  "license": "ISC",
+  "dependencies": {
+    "lit-element": "^2.4.0"
+  },
+  "devDependencies": {
+    "es-dev-server": "^2.0.2",
+    "rollup": "^2.35.1",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
